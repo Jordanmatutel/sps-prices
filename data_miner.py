@@ -60,14 +60,13 @@ def data_creator():
             main_land = main_land + final_land
             main_address = main_address + recollected_address
 
-        except:
+        finally:
             pass
 
     # Creates the dataframe and save it in one .csv
-    data = pd.DataFrame(columns=["Price", "Land", "Area"])
+    data = pd.DataFrame(columns=["Land", "Area", "Price"])
     data["Price"] = main_price
     data["Land"] = main_land
     data["Area"] = main_address
     data = data.sort_values(by='Area')
     data.to_csv("Data.csv", index=False)
-
