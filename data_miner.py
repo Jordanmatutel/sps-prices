@@ -7,6 +7,7 @@ def data_creator():
     # This variables saves the recollected data.
     main_price = []
     main_land = []
+    m2 = []
     main_address = []
 
     # This loops scraps all the data in the page of novacasahn.com.
@@ -55,18 +56,28 @@ def data_creator():
             for i in range(len(recollected_address)):
                 recollected_address[i] = recollected_address[i].split(",")[0]
 
+            # Calculate the mean price for m2
+            mean_m2 = []
+            for i in range(len(final_land)):
+                c = final_land[i] / price[i]
+                mean_m2.append(c)
+
+
             # Save the data into the principal variables
             main_price = main_price + price
             main_land = main_land + final_land
             main_address = main_address + recollected_address
+            m2 = m2 + mean_m2
+
 
         finally:
             pass
 
     # Creates the dataframe and save it in one .csv
-    data = pd.DataFrame(columns=["Land", "Area", "Price"])
+    data = pd.DataFrame(columns=["Land", "Area", "Price", "m2"])
     data["Price"] = main_price
     data["Land"] = main_land
     data["Area"] = main_address
+    data["m2"] = m2
     data = data.sort_values(by='Area')
     data.to_csv("Data.csv", index=False)
