@@ -73,7 +73,7 @@ def data_creator():
             pass
 
     # Creates the dataframe and save it in one .csv
-    data = pd.DataFrame(columns=["Land", "Area", "Price", "m2"])
+    data = pd.DataFrame(columns=["Land", "Area", "Price", "m2 price"])
     data["Price"] = main_price
     data["Land"] = main_land
     data["Area"] = main_address

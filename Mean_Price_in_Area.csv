@@ -1,15 +1,15 @@
 Name of Area,Mean Area,Mean m2 price,Mean Area - Total Mean,Variance
-Brisas del Merendon,102040.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000240F8DCBB80>>,128202.22,0.5568
-Campisa,252750.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000240F8DCBB80>>,-22507.78,-0.0978
-Casa Maya IV,185000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000240F8DCBB80>>,45242.22,0.1965
-Col Jardines del Valle,385000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000240F8DCBB80>>,-154757.78,-0.6722
-Colonia Juan Lindo,230000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000240F8DCBB80>>,242.22,0.0011
-Colonia Trejo,220000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000240F8DCBB80>>,10242.22,0.0445
-El Barrial,240000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000240F8DCBB80>>,-9757.78,-0.0424
-Jardines del Valle,244100.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000240F8DCBB80>>,-13857.78,-0.0602
-La Figueroa,190000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000240F8DCBB80>>,40242.22,0.1748
-Los Alamos,240000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000240F8DCBB80>>,-9757.78,-0.0424
-Residencial Campisa,174160.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000240F8DCBB80>>,56082.22,0.2436
-Residencial La Foresta,310000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000240F8DCBB80>>,-79757.78,-0.3464
-Residencial La Hacienda en Campisa,319000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000240F8DCBB80>>,-88757.78,-0.3855
-Residencial Villas Angelina,130600.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000240F8DCBB80>>,99642.22,0.4328
+Brisas del Merendon,102040.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000194DC6AB610>>,128202.22,0.5568
+Campisa,252750.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000194DC6AB610>>,-22507.78,-0.0978
+Casa Maya IV,185000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000194DC6AB610>>,45242.22,0.1965
+Col Jardines del Valle,385000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000194DC6AB610>>,-154757.78,-0.6722
+Colonia Juan Lindo,230000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000194DC6AB610>>,242.22,0.0011
+Colonia Trejo,220000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000194DC6AB610>>,10242.22,0.0445
+El Barrial,240000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000194DC6AB610>>,-9757.78,-0.0424
+Jardines del Valle,244100.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000194DC6AB610>>,-13857.78,-0.0602
+La Figueroa,190000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000194DC6AB610>>,40242.22,0.1748
+Los Alamos,240000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000194DC6AB610>>,-9757.78,-0.0424
+Residencial Campisa,174160.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000194DC6AB610>>,56082.22,0.2436
+Residencial La Foresta,310000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000194DC6AB610>>,-79757.78,-0.3464
+Residencial La Hacienda en Campisa,319000.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000194DC6AB610>>,-88757.78,-0.3855
+Residencial Villas Angelina,130600.0,<bound method GroupBy.mean of <pandas.core.groupby.generic.SeriesGroupBy object at 0x00000194DC6AB610>>,99642.22,0.4328
