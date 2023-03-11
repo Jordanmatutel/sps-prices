@@ -20,15 +20,15 @@ def mean_price_area():
         c = round(c, 2)
         difference.append(c)
 
-    # Percentage difference between the mean price and the mean of the area.
-    weight = []
+    # Percentage that represents the difference with the mean price and the difference.
+    variance = []
     for i in range(len(mean_area_price)):
         c = difference[i] / all_mean
         c = round(c, 4)
-        weight.append(c)
+        variance.append(c)
 
     # Create the CSV file with the mean price for each area.
     df = pd.DataFrame({"Name of Area": areas, "Mean Area": mean_area_price,
-                       "Total Mean - Mean Area": difference, "%": weight})
+                       "Mean Area - Total Mean": difference, "Variance": variance})
 
     df.to_csv("Mean_Price_in_Area.csv", index=False)
