@@ -16,7 +16,7 @@ def mean_price_area():
     all_mean = round(all_mean, 2)
     difference = []
     for i in range(len(mean_area_price)):
-        c = mean_area_price[i] - all_mean
+        c = all_mean - mean_area_price[i]
         c = round(c, 2)
         difference.append(c)
 
@@ -24,7 +24,7 @@ def mean_price_area():
     weight = []
     for i in range(len(mean_area_price)):
         c = difference[i] / all_mean
-        c = round(c, 2)
+        c = round(c, 4)
         weight.append(c)
 
     # Create the CSV file with the mean price for each area.
