@@ -59,16 +59,15 @@ def data_creator():
             # Calculate the mean price for m2
             mean_m2 = []
             for i in range(len(final_land)):
-                c = final_land[i] / price[i]
+                c = price[i] / final_land[i]
+                c = round(c, 2)
                 mean_m2.append(c)
-
 
             # Save the data into the principal variables
             main_price = main_price + price
             main_land = main_land + final_land
             main_address = main_address + recollected_address
             m2 = m2 + mean_m2
-
 
         finally:
             pass
@@ -78,6 +77,6 @@ def data_creator():
     data["Price"] = main_price
     data["Land"] = main_land
     data["Area"] = main_address
-    data["m2"] = m2
+    data["m2 price"] = m2
     data = data.sort_values(by='Area')
     data.to_csv("Data.csv", index=False)

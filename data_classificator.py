@@ -11,6 +11,9 @@ def mean_price_area():
     # Calculate the mean price for each area.
     mean_area_price = data.groupby("Area")["Price"].mean()
 
+    # Calculate the mean price of m2 of land.
+    mean_m2 = data.groupby("Area")["m2 price"].mean
+
     # Difference from the mean price of area.
     all_mean = data["Price"].mean()
     all_mean = round(all_mean, 2)
@@ -28,7 +31,7 @@ def mean_price_area():
         variance.append(c)
 
     # Create the CSV file with the mean price for each area.
-    df = pd.DataFrame({"Name of Area": areas, "Mean Area": mean_area_price,
+    df = pd.DataFrame({"Name of Area": areas, "Mean Area": mean_area_price, "Mean m2 price": mean_m2,
                        "Mean Area - Total Mean": difference, "Variance": variance})
 
     df.to_csv("Mean_Price_in_Area.csv", index=False)
