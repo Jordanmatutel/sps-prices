@@ -28,7 +28,7 @@ def mean_price_area():
         weight.append(c)
 
     # Create the CSV file with the mean price for each area.
-    df = pd.DataFrame({"Name of Area": areas, "Mean Price": mean_area_price,
-                       "Mean Price - Mean": difference, "Weight": weight})
+    df = pd.DataFrame({"Name of Area": areas, "Mean Area": mean_area_price,
+                       "Total Mean - Mean Area": difference, "%": weight})
 
     df.to_csv("Mean_Price_in_Area.csv", index=False)
