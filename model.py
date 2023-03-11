@@ -24,7 +24,7 @@ def prediction():
     # Calculate the error of our model.
     error = []
     for i in range(len(land)):
-        e = (land[i] - predict[i]) ** 2
+        e = (price[i] - predict[i]) ** 2
         e = np.sqrt(e)
         e = round(e, 2)
         error.append(e)
