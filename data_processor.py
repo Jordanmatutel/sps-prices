@@ -1,8 +1,8 @@
 import pandas as pd
-import numpy as np
 import statistics as st
 
-def proccesor():
+
+def processor():
     data = pd.read_csv("Data.csv")
     price = data["Price"]
     land = data["Land"]
@@ -15,19 +15,19 @@ def proccesor():
     dnegative_sdt = negative_sdt * 2
 
     # Classify the data in base of the standard deviation
-    list = []
-    numerical_list = []
+    total_list = []
     for i in range(len(price)):
         if area[i] >= sdt:
             if area[i] >= double_sdt:
-                list.append("Very High Price")
+                total_list.append("Very High Price")
             else:
-                list.append("High Price")
+                total_list.append("High Price")
         if area[i] <= negative_sdt:
             if area[i] >= dnegative_sdt:
-                list.append("Very Low Price")
+                total_list.append("Very Low Price")
             else:
-                list.append("Low Price")
+                total_list.append("Low Price")
         else:
-            list.append("Medium Price")
+            total_list.append("Medium Price")
 
+    return total_list
