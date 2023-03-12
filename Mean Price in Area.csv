@@ -1,15 +1,38 @@
 Name of Area,Mean Area,Mean m2 price,Mean Area - Total Mean,Variance
-Brisas del Merendon,102040.0,593.26,129773.33,0.5598
-Campisa,265500.0,966.8166666666666,-33686.67,-0.1453
-Casa Maya IV,185000.0,1134.97,46813.33,0.2019
-Col Jardines del Valle,385000.0,782.52,-153186.67,-0.6608
-Colonia Juan Lindo,230000.0,760.58,1813.33,0.0078
-Colonia Trejo,220000.0,632.8,11813.33,0.051
-El Barrial,240000.0,1165.9,-8186.67,-0.0353
-Jardines del Valle,244100.0,697.43,-12286.67,-0.053
-La Figueroa,190000.0,2111.11,41813.33,0.1804
-Los Alamos,240000.0,1004.18,-8186.67,-0.0353
-Residencial Campisa,193466.66666666666,1281.1766666666665,38346.66,0.1654
-Residencial La Foresta,310000.0,1305.76,-78186.67,-0.3373
-Residencial La Hacienda en Campisa,319000.0,839.47,-87186.67,-0.3761
-Residencial Villas Angelina,130600.0,816.25,101213.33,0.4366
+13 Calle NO,,,-6775.37,-0.0352
+13 calle,,,45024.63,0.2342
+Barrio Morazán,,,75524.63,0.3929
+Brisas del Merendon,,,90184.63,0.4692
+Bulevard Armenta,,,47224.63,0.2457
+C. Juan Lindo,,,2224.63,0.0116
+Campisa,,,-22058.37,-0.1148
+Casa Maya Etapa II,,,3224.63,0.0168
+Casa Maya IV,,,-45275.37,-0.2355
+Ciudad Jaraguá,,,-162775.37,-0.8468
+Col Jardines del Valle,,,-20275.37,-0.1055
+Colonia Figueroa,,,2224.63,0.0116
+Colonia Juan Lindo,,,-37775.37,-0.1965
+Colonia Trejo,,,35718.63,0.1858
+Colonia Universidad,,,-81775.37,-0.4254
+El Barrial,,,-74942.04,-0.3899
+Jardines del Valle,,,-51875.37,-0.2699
+La Figueroa,,,2224.63,0.0116
+La Hacienda,,,-2775.37,-0.0144
+La Hacienda - Res. Campisa,,,9724.63,0.0506
+Los Alamos,,,-52775.37,-0.2746
+No Data,,,65786.46,0.3422
+Paseo Real,,,-22775.37,-0.1185
+Principal,,,56891.3,0.296
+Rancho El Coco,,,-372775.37,-1.9393
+Rancho Tara,,,22824.63,0.1187
+Residencial Campisa,,,64171.48,0.3338
+Residencial Campisa Segunda Etapa,,,72224.63,0.3757
+Residencial La Foresta,,,-194442.04,-1.0115
+Residencial La Hacienda en Campisa,,,-126775.37,-0.6595
+Residencial Paseo la Fuente,,,17224.63,0.0896
+Residencial Villas Angelina,,,61624.63,0.3206
+Residencial Villas Serán,,,44224.63,0.2301
+San Pedro Sula 21102,,,45224.63,0.2353
+Sector el Carmen NE,,,77224.63,0.4017
+Unnamed Road,,,17224.63,0.0896
+Villas Mackay,,,-96775.37,-0.5034

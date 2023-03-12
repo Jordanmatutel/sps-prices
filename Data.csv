@@ -1,78 +1,78 @@
 Price,Land,Area,Type,m2 price,Price Value
-79647.0,48.64,,Apartamentos,1637.48,Low Price
-142860.0,145.0,,Casas,985.24,Medium Price
-115000.0,106.0,,Apartamentos,1084.91,Medium Price
-127000.0,48.56,,Apartamentos,2615.32,Medium Price
-94122.0,537.84,,Lote,175.0,Low Price
-200000.0,200.0,,Casas,1000.0,Medium Price
 199000.0,100.0,13 Calle NO,Apartamentos,1990.0,Medium Price
 147200.0,87.0,13 calle,Apartamentos,1691.95,Medium Price
 116700.0,179.0,Barrio Morazán,Casas,651.96,Medium Price
 102040.0,172.0,Brisas del Merendon,Casas,593.26,Low Price
 145000.0,103.0,Bulevard Armenta,Apartamentos,1407.77,Medium Price
 190000.0,230.9,C. Juan Lindo,Casas,822.87,Medium Price
+184000.0,189.0,Campisa,Casas,973.54,Medium Price
+282000.0,416.25,Campisa,Casas,677.48,Medium Price
+250000.0,235.0,Campisa,Casas,1063.83,Medium Price
+210000.0,346.0,Campisa,Casas,606.94,Medium Price
+300000.0,340.0,Campisa,Casas,882.35,High Price
 189000.0,162.32,Campisa,Casas,1164.37,Medium Price
+103145.0,589.4,Campisa,Lote,175.0,Low Price
 141185.0,806.77,Campisa,Lote,175.0,Medium Price
 269000.0,337.13,Campisa,Casas,797.91,Medium Price
-210000.0,346.0,Campisa,Casas,606.94,Medium Price
-282000.0,416.25,Campisa,Casas,677.48,Medium Price
-300000.0,340.0,Campisa,Casas,882.35,High Price
-184000.0,189.0,Campisa,Casas,973.54,Medium Price
-103145.0,589.4,Campisa,Lote,175.0,Low Price
-250000.0,235.0,Campisa,Casas,1063.83,Medium Price
 214500.0,160.0,Campisa,Casas,1340.62,Medium Price
 189000.0,130.0,Casa Maya Etapa II,Casas,1453.85,Medium Price
-290000.0,313.44,Casa Maya IV,Casas,925.22,High Price
 185000.0,163.0,Casa Maya IV,Casas,1134.97,Medium Price
+290000.0,313.44,Casa Maya IV,Casas,925.22,High Price
 355000.0,296.0,Ciudad Jaraguá,Casas,1199.32,High Price
-200000.0,320.0,Col Jardines del Valle,Casas,625.0,Medium Price
-385000.0,492.0,Col Jardines del Valle,Casas,782.52,Very High Price
 125000.0,68.0,Col Jardines del Valle,Apartamentos,1838.24,Medium Price
 230000.0,215.0,Col Jardines del Valle,Casas,1069.77,Medium Price
 185000.0,131.0,Col Jardines del Valle,Casas,1412.21,Medium Price
 150000.0,126.5,Col Jardines del Valle,Casas,1185.77,Medium Price
+385000.0,492.0,Col Jardines del Valle,Casas,782.52,Very High Price
+200000.0,320.0,Col Jardines del Valle,Casas,625.0,Medium Price
 180000.0,87.85,Colonia Figueroa,Apartamentos,2048.95,Medium Price
 200000.0,120.0,Colonia Figueroa,Apartamentos,1666.67,Medium Price
 230000.0,302.4,Colonia Juan Lindo,Casas,760.58,Medium Price
-124829.0,101.25,Colonia Trejo,Casas,1232.88,Medium Price
 124689.0,101.25,Colonia Trejo,Casas,1231.5,Medium Price
+124829.0,101.25,Colonia Trejo,Casas,1232.88,Medium Price
 220000.0,347.66,Colonia Trejo,Casas,632.8,Medium Price
 274000.0,242.6,Colonia Universidad,Casas,1129.43,Medium Price
-286000.0,262.25,El Barrial,Casas,1090.56,High Price
 275500.0,288.0,El Barrial,Casas,956.6,Medium Price
 240000.0,205.85,El Barrial,Casas,1165.9,Medium Price
+286000.0,262.25,El Barrial,Casas,1090.56,High Price
 244100.0,350.0,Jardines del Valle,Casas,697.43,Medium Price
 190000.0,90.0,La Figueroa,Apartamentos,2111.11,Medium Price
 195000.0,205.0,La Hacienda,Casas,951.22,Medium Price
-180000.0,185.0,La Hacienda - Res. Campisa,Casas,972.97,Medium Price
 210000.0,255.0,La Hacienda - Res. Campisa,Casas,823.53,Medium Price
-165000.0,180.0,La Hacienda - Res. Campisa,Casas,916.67,Medium Price
+180000.0,185.0,La Hacienda - Res. Campisa,Casas,972.97,Medium Price
 175000.0,135.0,La Hacienda - Res. Campisa,Casas,1296.3,Medium Price
+165000.0,180.0,La Hacienda - Res. Campisa,Casas,916.67,Medium Price
 240000.0,239.0,Los Alamos,Casas,1004.18,Medium Price
 250000.0,290.0,Los Alamos,Casas,862.07,Medium Price
+115000.0,106.0,No Data,Apartamentos,1084.91,Medium Price
+127000.0,48.56,No Data,Apartamentos,2615.32,Medium Price
+142860.0,145.0,No Data,Casas,985.24,Medium Price
+200000.0,200.0,No Data,Casas,1000.0,Medium Price
+79647.0,48.64,No Data,Apartamentos,1637.48,Low Price
+94122.0,537.84,No Data,Lote,175.0,Low Price
 215000.0,204.0,Paseo Real,Casas,1053.92,Medium Price
-135000.0,146.94,Principal,Casas,918.74,Medium Price
 125000.0,127.0,Principal,Apartamentos,984.25,Medium Price
 146000.0,127.0,Principal,Townhouses,1149.61,Medium Price
+135000.0,146.94,Principal,Casas,918.74,Medium Price
 565000.0,210.0,Rancho El Coco,Apartamentos,2690.48,Very High Price
-134700.0,105.0,Rancho Tara,Casas,1282.86,Medium Price
 204100.0,220.0,Rancho Tara,Casas,927.73,Medium Price
-159840.0,131.0,Residencial Campisa,Casas,1220.15,Medium Price
-79429.38,54.38,Residencial Campisa,Apartamentos,1460.64,Low Price
-89100.0,50.9,Residencial Campisa,Apartamentos,1750.49,Low Price
-70000.0,60.0,Residencial Campisa,Apartamentos,1166.67,Low Price
-84679.0,50.42,Residencial Campisa,Apartamentos,1679.47,Low Price
+134700.0,105.0,Rancho Tara,Casas,1282.86,Medium Price
 290000.0,304.85,Residencial Campisa,Casas,951.29,High Price
-88580.0,57.63,Residencial Campisa,Apartamentos,1537.05,Low Price
-240000.0,321.0,Residencial Campisa,Casas,747.66,Medium Price
-154444.0,858.27,Residencial Campisa,Lote,179.95,Medium Price
-87320.0,65.0,Residencial Campisa,Apartamentos,1343.38,Low Price
-93418.0,57.27,Residencial Campisa,Apartamentos,1631.19,Low Price
 100000.0,58.0,Residencial Campisa,Apartamentos,1724.14,Low Price
-97280.0,65.0,Residencial Campisa,Apartamentos,1496.62,Low Price
-89360.0,65.0,Residencial Campisa,Apartamentos,1374.77,Low Price
-135000.0,121.0,Residencial Campisa,Apartamentos,1115.7,Medium Price
+84679.0,50.42,Residencial Campisa,Apartamentos,1679.47,Low Price
+79429.38,54.38,Residencial Campisa,Apartamentos,1460.64,Low Price
 190400.0,163.0,Residencial Campisa,Casas,1168.1,Medium Price
+159840.0,131.0,Residencial Campisa,Casas,1220.15,Medium Price
+88580.0,57.63,Residencial Campisa,Apartamentos,1537.05,Low Price
+135000.0,121.0,Residencial Campisa,Apartamentos,1115.7,Medium Price
+97280.0,65.0,Residencial Campisa,Apartamentos,1496.62,Low Price
+70000.0,60.0,Residencial Campisa,Apartamentos,1166.67,Low Price
+93418.0,57.27,Residencial Campisa,Apartamentos,1631.19,Low Price
+87320.0,65.0,Residencial Campisa,Apartamentos,1343.38,Low Price
+154444.0,858.27,Residencial Campisa,Lote,179.95,Medium Price
+89100.0,50.9,Residencial Campisa,Apartamentos,1750.49,Low Price
+240000.0,321.0,Residencial Campisa,Casas,747.66,Medium Price
+89360.0,65.0,Residencial Campisa,Apartamentos,1374.77,Low Price
 120000.0,125.0,Residencial Campisa Segunda Etapa,Apartamentos,960.0,Medium Price
 560000.0,492.65,Residencial La Foresta,Casas,1136.71,Very High Price
 310000.0,237.41,Residencial La Foresta,Casas,1305.76,High Price

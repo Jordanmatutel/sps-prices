@@ -71,7 +71,11 @@ def data_creator():
 
             # Fix the error with the recollected data of the address
             for i in range(len(recollected_address)):
-                recollected_address[i] = recollected_address[i].split(",")[0]
+                if not recollected_address[i]:
+                    recollected_address[i] = "No Data"
+                else:
+                    recollected_address[i] = recollected_address[i].split(",")[0]
+                    print(recollected_address[i])
 
             # Calculate the mean price for m2
             mean_m2 = []

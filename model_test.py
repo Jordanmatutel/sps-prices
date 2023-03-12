@@ -15,13 +15,15 @@ address = data["Area"]
 # Choose random data using the maximum and the minimum data
 # Also selects one random area of the list of areas
 random_price = []
+mi = min(price)
+ma = max(price)
 for i in range(1000):
-    c = random.randint(min(price), max(price))
+    c = random.randint(mi, ma)
     random_price.append(c)
 
 random_land = []
 for i in range(1000):
-    c = random.randint(min(land), max(land))
+    c = random.randint(mi, ma)
     random_land.append(c)
 
 random_area = []
@@ -72,6 +74,8 @@ if sum(error1) > sum(error2):
 else:
     print("Average Price")
 
+print(len(model1))
+print(model1)
 
 random_price = sorted(random_price)
 model1 = sorted(model1)
