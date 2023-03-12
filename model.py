@@ -67,7 +67,7 @@ def prediction():
     ax.legend()
     plt.show()
 
-    # Saves the information into one archive .csv
+    # Saves the information into one archive .csv.
     c = pd.DataFrame({"Price": price, "Land": land, "Area": address, "Predict": result, "Error": error_result})
     c.to_csv("Model Prediction.csv")
     return predict

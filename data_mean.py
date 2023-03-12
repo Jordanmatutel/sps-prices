@@ -13,6 +13,7 @@ def mean_price_area():
     for area in areas:
         prices = data[data["Area"] == area]["Price"]
         mean_price = prices.mean()
+        mean_price = round(mean_price, 2)
         mean_area_price.append(mean_price)
 
     # Calculate the mean price of m2 of land.
@@ -20,6 +21,7 @@ def mean_price_area():
     for area in areas:
         prices = data[data["Area"] == area]["m2 price"]
         mean_price = prices.mean()
+        mean_price = round(mean_price, 2)
         mean_m2.append(mean_price)
 
     # Difference from the mean price of area.
