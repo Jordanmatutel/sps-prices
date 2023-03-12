@@ -1,89 +1,89 @@
 ,Price,Land,Area,Predict,Error
-0,199000.0,100.0,13 Calle NO,,
-1,147200.0,87.0,13 calle,,
-2,116700.0,179.0,Barrio Morazán,,
-3,102040.0,172.0,Brisas del Merendon,,
-4,145000.0,103.0,Bulevard Armenta,,
-5,190000.0,230.9,C. Juan Lindo,,
-6,184000.0,189.0,Campisa,,
-7,282000.0,416.25,Campisa,,
-8,250000.0,235.0,Campisa,,
-9,210000.0,346.0,Campisa,,
-10,300000.0,340.0,Campisa,,
-11,189000.0,162.32,Campisa,,
-12,103145.0,589.4,Campisa,,
-13,141185.0,806.77,Campisa,,
-14,269000.0,337.13,Campisa,,
-15,214500.0,160.0,Campisa,,
-16,189000.0,130.0,Casa Maya Etapa II,,
-17,185000.0,163.0,Casa Maya IV,,
-18,290000.0,313.44,Casa Maya IV,,
-19,355000.0,296.0,Ciudad Jaraguá,,
-20,125000.0,68.0,Col Jardines del Valle,,
-21,230000.0,215.0,Col Jardines del Valle,,
-22,185000.0,131.0,Col Jardines del Valle,,
-23,150000.0,126.5,Col Jardines del Valle,,
-24,385000.0,492.0,Col Jardines del Valle,,
-25,200000.0,320.0,Col Jardines del Valle,,
-26,180000.0,87.85,Colonia Figueroa,,
-27,200000.0,120.0,Colonia Figueroa,,
-28,230000.0,302.4,Colonia Juan Lindo,,
-29,124689.0,101.25,Colonia Trejo,,
-30,124829.0,101.25,Colonia Trejo,,
-31,220000.0,347.66,Colonia Trejo,,
-32,274000.0,242.6,Colonia Universidad,,
-33,275500.0,288.0,El Barrial,,
-34,240000.0,205.85,El Barrial,,
-35,286000.0,262.25,El Barrial,,
-36,244100.0,350.0,Jardines del Valle,,
-37,190000.0,90.0,La Figueroa,,
-38,195000.0,205.0,La Hacienda,,
-39,210000.0,255.0,La Hacienda - Res. Campisa,,
-40,180000.0,185.0,La Hacienda - Res. Campisa,,
-41,175000.0,135.0,La Hacienda - Res. Campisa,,
-42,165000.0,180.0,La Hacienda - Res. Campisa,,
-43,240000.0,239.0,Los Alamos,,
-44,250000.0,290.0,Los Alamos,,
-45,115000.0,106.0,No Data,,
-46,127000.0,48.56,No Data,,
-47,142860.0,145.0,No Data,,
-48,200000.0,200.0,No Data,,
-49,79647.0,48.64,No Data,,
-50,94122.0,537.84,No Data,,
-51,215000.0,204.0,Paseo Real,,
-52,125000.0,127.0,Principal,,
-53,146000.0,127.0,Principal,,
-54,135000.0,146.94,Principal,,
-55,565000.0,210.0,Rancho El Coco,,
-56,204100.0,220.0,Rancho Tara,,
-57,134700.0,105.0,Rancho Tara,,
-58,290000.0,304.85,Residencial Campisa,,
-59,100000.0,58.0,Residencial Campisa,,
-60,84679.0,50.42,Residencial Campisa,,
-61,79429.38,54.38,Residencial Campisa,,
-62,190400.0,163.0,Residencial Campisa,,
-63,159840.0,131.0,Residencial Campisa,,
-64,88580.0,57.63,Residencial Campisa,,
-65,135000.0,121.0,Residencial Campisa,,
-66,97280.0,65.0,Residencial Campisa,,
-67,70000.0,60.0,Residencial Campisa,,
-68,93418.0,57.27,Residencial Campisa,,
-69,87320.0,65.0,Residencial Campisa,,
-70,154444.0,858.27,Residencial Campisa,,
-71,89100.0,50.9,Residencial Campisa,,
-72,240000.0,321.0,Residencial Campisa,,
-73,89360.0,65.0,Residencial Campisa,,
-74,120000.0,125.0,Residencial Campisa Segunda Etapa,,
-75,560000.0,492.65,Residencial La Foresta,,
-76,310000.0,237.41,Residencial La Foresta,,
-77,290000.0,210.0,Residencial La Foresta,,
-78,319000.0,380.0,Residencial La Hacienda en Campisa,,
-79,175000.0,192.57,Residencial Paseo la Fuente,,
-80,130600.0,160.0,Residencial Villas Angelina,,
-81,148000.0,166.0,Residencial Villas Serán,,
-82,147000.0,98.0,San Pedro Sula 21102,,
-83,115000.0,298.0,Sector el Carmen NE,,
-84,130000.0,125.0,Unnamed Road,,
-85,220000.0,107.1,Unnamed Road,,
-86,268000.0,278.0,Villas Mackay,,
-87,310000.0,200.0,Villas Mackay,,
+0,199000.0,100.0,13 Calle NO,199000.0,0.0
+1,147200.0,87.0,13 calle,147199.65,0.35
+2,116700.0,179.0,Barrio Morazán,116700.84,0.84
+3,102040.0,172.0,Brisas del Merendon,102040.72,0.72
+4,145000.0,103.0,Bulevard Armenta,145000.31,0.31
+5,190000.0,230.9,C. Juan Lindo,190000.68,0.68
+6,184000.0,189.0,Campisa,148498.06,35501.94
+7,282000.0,416.25,Campisa,327049.29,45049.29
+8,250000.0,235.0,Campisa,184640.44,65359.56
+9,210000.0,346.0,Campisa,271853.58,61853.58
+10,300000.0,340.0,Campisa,267139.36,32860.64
+11,189000.0,162.32,Campisa,127535.47,61464.53
+12,103145.0,589.4,Campisa,463093.94,359948.94
+13,141185.0,806.77,Campisa,633882.42,492697.42
+14,269000.0,337.13,Campisa,264884.39,4115.61
+15,214500.0,160.0,Campisa,125712.64,88787.36
+16,189000.0,130.0,Casa Maya Etapa II,189000.5,0.5
+17,185000.0,163.0,Casa Maya IV,167905.48,17094.52
+18,290000.0,313.44,Casa Maya IV,322872.98,32872.98
+19,355000.0,296.0,Ciudad Jaraguá,354998.72,1.28
+20,125000.0,68.0,Col Jardines del Valle,78353.11,46646.89
+21,230000.0,215.0,Col Jardines del Valle,247734.11,17734.11
+22,185000.0,131.0,Col Jardines del Valle,150944.97,34055.03
+23,150000.0,126.5,Col Jardines del Valle,145759.84,4240.16
+24,385000.0,492.0,Col Jardines del Valle,566907.82,181907.82
+25,200000.0,320.0,Col Jardines del Valle,368720.53,168720.53
+26,180000.0,87.85,Colonia Figueroa,163208.61,16791.39
+27,200000.0,120.0,Colonia Figueroa,222937.2,22937.2
+28,230000.0,302.4,Colonia Juan Lindo,229999.39,0.61
+29,124689.0,101.25,Colonia Trejo,104529.83,20159.17
+30,124829.0,101.25,Colonia Trejo,104529.83,20299.17
+31,220000.0,347.66,Colonia Trejo,358921.87,138921.87
+32,274000.0,242.6,Colonia Universidad,273999.72,0.28
+33,275500.0,288.0,El Barrial,308453.76,32953.76
+34,240000.0,205.85,El Barrial,220469.47,19530.53
+35,286000.0,262.25,El Barrial,280875.0,5125.0
+36,244100.0,350.0,Jardines del Valle,244100.5,0.5
+37,190000.0,90.0,La Figueroa,189999.9,0.1
+38,195000.0,205.0,La Hacienda,195000.1,0.1
+39,210000.0,255.0,La Hacienda - Res. Campisa,255603.71,45603.71
+40,180000.0,185.0,La Hacienda - Res. Campisa,185437.99,5437.99
+41,175000.0,135.0,La Hacienda - Res. Campisa,135319.61,39680.39
+42,165000.0,180.0,La Hacienda - Res. Campisa,180426.15,15426.15
+43,240000.0,239.0,Los Alamos,223016.88,16983.12
+44,250000.0,290.0,Los Alamos,270606.25,20606.25
+45,115000.0,106.0,No Data,132463.78,17463.78
+46,127000.0,48.56,No Data,60683.41,66316.59
+47,142860.0,145.0,No Data,181200.46,38340.46
+48,200000.0,200.0,No Data,249931.67,49931.67
+49,79647.0,48.64,No Data,60783.38,18863.62
+50,94122.0,537.84,No Data,672116.24,577994.24
+51,215000.0,204.0,Paseo Real,214999.68,0.32
+52,125000.0,127.0,Principal,129226.73,4226.73
+53,146000.0,127.0,Principal,129226.73,16773.27
+54,135000.0,146.94,Principal,149516.35,14516.35
+55,565000.0,210.0,Rancho El Coco,565000.8,0.8
+56,204100.0,220.0,Rancho Tara,243164.9,39064.9
+57,134700.0,105.0,Rancho Tara,116055.98,18644.02
+58,290000.0,304.85,Residencial Campisa,391489.7,101489.7
+59,100000.0,58.0,Residencial Campisa,74483.85,25516.15
+60,84679.0,50.42,Residencial Campisa,64749.58,19929.42
+61,79429.38,54.38,Residencial Campisa,69835.03,9594.35
+62,190400.0,163.0,Residencial Campisa,209325.31,18925.31
+63,159840.0,131.0,Residencial Campisa,168230.77,8390.77
+64,88580.0,57.63,Residencial Campisa,74008.7,14571.3
+65,135000.0,121.0,Residencial Campisa,155388.73,20388.73
+66,97280.0,65.0,Residencial Campisa,83473.28,13806.72
+67,70000.0,60.0,Residencial Campisa,77052.26,7052.26
+68,93418.0,57.27,Residencial Campisa,73546.38,19871.62
+69,87320.0,65.0,Residencial Campisa,83473.28,3846.72
+70,154444.0,858.27,Residencial Campisa,1102194.09,947750.09
+71,89100.0,50.9,Residencial Campisa,65366.0,23734.0
+72,240000.0,321.0,Residencial Campisa,412229.6,172229.6
+73,89360.0,65.0,Residencial Campisa,83473.28,5886.72
+74,120000.0,125.0,Residencial Campisa Segunda Etapa,120000.0,0.0
+75,560000.0,492.65,Residencial La Foresta,627869.29,67869.29
+76,310000.0,237.41,Residencial La Foresta,302572.71,7427.29
+77,290000.0,210.0,Residencial La Foresta,267639.4,22360.6
+78,319000.0,380.0,Residencial La Hacienda en Campisa,318998.6,1.4
+79,175000.0,192.57,Residencial Paseo la Fuente,174999.91,0.09
+80,130600.0,160.0,Residencial Villas Angelina,130600.0,0.0
+81,148000.0,166.0,Residencial Villas Serán,148000.62,0.62
+82,147000.0,98.0,San Pedro Sula 21102,147000.0,0.0
+83,115000.0,298.0,Sector el Carmen NE,115001.18,1.18
+84,130000.0,125.0,Unnamed Road,193384.38,63384.38
+85,220000.0,107.1,Unnamed Road,165691.73,54308.27
+86,268000.0,278.0,Villas Mackay,349450.17,81450.17
+87,310000.0,200.0,Villas Mackay,251403.0,58597.0

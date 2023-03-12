@@ -74,9 +74,6 @@ if sum(error1) > sum(error2):
 else:
     print("Average Price")
 
-print(len(model1))
-print(model1)
-
 random_price = sorted(random_price)
 model1 = sorted(model1)
 model2 = sorted(model2)

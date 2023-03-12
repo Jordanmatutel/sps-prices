@@ -75,7 +75,6 @@ def data_creator():
                     recollected_address[i] = "No Data"
                 else:
                     recollected_address[i] = recollected_address[i].split(",")[0]
-                    print(recollected_address[i])
 
             # Calculate the mean price for m2
             mean_m2 = []

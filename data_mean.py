@@ -6,13 +6,21 @@ def mean_price_area():
     data = pd.read_csv("Data.csv")
 
     # Get a list of unique areas.
-    areas = data["Area"].unique().tolist()
+    areas = data["Area"].unique()
 
     # Calculate the mean price for each area.
-    mean_area_price = data.groupby("Area")["Price"].mean()
+    mean_area_price = []
+    for area in areas:
+        prices = data[data["Area"] == area]["Price"]
+        mean_price = prices.mean()
+        mean_area_price.append(mean_price)
 
     # Calculate the mean price of m2 of land.
-    mean_m2 = data.groupby("Area")["m2 price"].mean()
+    mean_m2 = []
+    for area in areas:
+        prices = data[data["Area"] == area]["m2 price"]
+        mean_price = prices.mean()
+        mean_m2.append(mean_price)
 
     # Difference from the mean price of area.
     all_mean = data["Price"].mean()
