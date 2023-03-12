@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 def prediction():
@@ -56,6 +57,15 @@ def prediction():
     else:
         result = predict
         error_result = error
+
+    # Graph the results
+    fig, ax = plt.subplots()
+    ax.plot(price, 'o', label='Prices')
+    ax.plot(result, '-', label='Prediction')
+    ax.set_xlabel('Price')
+    ax.set_title('Prices vs Prediction')
+    ax.legend()
+    plt.show()
 
     # Saves the information into one archive .csv
     c = pd.DataFrame({"Price": price, "Land": land, "Area": address, "Predict": result, "Error": error_result})
