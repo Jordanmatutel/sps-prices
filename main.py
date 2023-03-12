@@ -4,6 +4,6 @@ import model
 import graph
 
 dm.data_creator()
-#data_mean.mean_price_area()
-#c = model.prediction()
-#graph.graph()
+data_mean.mean_price_area()
+c = model.prediction()
+graph.graph()

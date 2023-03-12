@@ -31,7 +31,17 @@ def mean_price_area():
         variance.append(c)
 
     # Create the CSV file with the mean price for each area.
-    total = pd.DataFrame({"Name of Area": areas, "Mean Area": mean_area_price, "Mean m2 price": mean_m2,
-                          "Mean Area - Total Mean": difference, "Variance": variance})
+    print(len(areas))
+    print(len(mean_area_price))
+    print(len(mean_m2))
+    print(len(difference))
+    print(len(variance))
 
+    total = pd.DataFrame(columns=["Name of Area", "Mean Area", "Mean m2 price",
+                                  "Mean Area - Total Mean", "Variance"])
+    total["Name of Area"] = areas
+    total["Mean Area"] = mean_area_price
+    total["Mean m2 price"] = mean_m2
+    total["Mean Area - Total Mean"] = difference
+    total["Variance"] = variance
     total.to_csv("Mean Price in Area.csv", index=False)

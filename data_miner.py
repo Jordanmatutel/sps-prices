@@ -28,23 +28,24 @@ def data_creator():
             for i in target:
                 types = i.find("li", class_="h-type")
                 price = i.find("li", class_="item-price")
-                land = i.find("span", class_="hz-figure")
+                land = i.find("li", class_="h-area")
                 land_lote = i.find("li", class_="h-land-area")
                 address = i.find("address", class_="item-address")
 
                 c = types.text
                 c = c.split("/")[0]
                 c = c.split(",")[0]
-                type_of.append(c)
 
                 if c == "Casas" or c == "Apartamentos" or c == "Townhouses":
                     recollected_price.append(price.text)
                     recollected_address.append(address.text)
                     recollected_land.append(land.text)
+                    type_of.append(c)
                 elif c == "Lote":
                     recollected_price.append(price.text)
                     recollected_address.append(address.text)
                     recollected_land.append(land_lote.text)
+                    type_of.append(c)
 
             # Makes the price into a numeric function and fix the error in the recollected data.
             price = []
@@ -55,7 +56,7 @@ def data_creator():
                 if recollected_price[i][0] == "L":
                     recollected_price[i] = recollected_price[i].replace("L", "")
                     recollected_price[i] = float(recollected_price[i])
-                    recollected_price[i] = recollected_price[i] / 0.041
+                    recollected_price[i] = recollected_price[i] * 0.041
                     recollected_price[i] = round(recollected_price[i], 2)
                 recollected_price[i] = float(recollected_price[i])
                 price.append(recollected_price[i])
@@ -89,7 +90,7 @@ def data_creator():
             pass
 
     # Calculate the Standard Deviation of the price
-    mean = statistics.mean(main_price)
+    mean = sum(main_price) / len(main_price)
     sdt = statistics.stdev(main_price)
     negative_sdt = mean - sdt
     double_sdt = (sdt * 2) + mean
