@@ -9,6 +9,6 @@ def graph():
     categories = data["Price Value"].unique()
     counts = [value_counts[cat] for cat in categories]
 
-    # Makes the graph of bars and shows it.
+    # Makes the graph of bars and shows it.  
     plt.bar(categories, counts)
     plt.show()
