@@ -58,7 +58,13 @@ def prediction():
         result = predict
         error_result = error
 
+    # Saves the information into one archive .csv.
+    c = pd.DataFrame({"Price": price, "Land": land, "Area": address, "Predict": result, "Error": error_result})
+    c.to_csv("Model Prediction.csv")
+
     # Graph the results
+    price = sorted(price)
+    result = sorted(result)
     fig, ax = plt.subplots()
     ax.plot(price, 'o', label='Prices')
     ax.plot(result, '-', label='Prediction')
@@ -66,8 +72,3 @@ def prediction():
     ax.set_title('Prices vs Prediction')
     ax.legend()
     plt.show()
-
-    # Saves the information into one archive .csv.
-    c = pd.DataFrame({"Price": price, "Land": land, "Area": address, "Predict": result, "Error": error_result})
-    c.to_csv("Model Prediction.csv")
-    return predict
