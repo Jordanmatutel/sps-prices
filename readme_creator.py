@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import math
 
 
-def graph():
+def readme():
     # Reads the data and take the unique values and counts them.
     data = pd.read_csv("All prices in Cortes.csv")
     dprices = data["Prices"]
@@ -34,10 +34,10 @@ def graph():
         f"The study have the values of {len(dprices)} properties ubicated in Cortes, Honduras. The mean price of " \
         f"the properties is {mean}. From this study we take out the registered data from San Pedro Sula which have " \
         f"brings as a result the amount of {total} houses. With this information we divide the " \
-        f"quantity of data in base of the regions. In this study I call region to every colony " \
-        f"colonies, residential or sector of San Pedro Sula. The amounts of registered regions " \
+        f"quantity of data in base of the regions. In this study I call region to every colony" \
+        f", residential or sector in San Pedro Sula. The amounts of registered regions " \
         f"is {len(value_count2)}. Using this set of data, I take the mean price of the data, " \
-        f"that's equal to: {mean2} and divided the properties based on the price. " \
+        f"that's equal to: {mean2} and divided the properties based on the price and area. " \
         f"After that, I created two models, one using linear regression and another using the mean " \
         f"price of every area. I set a option tree that return the best option from this case. " \
         f"The best adapted model in this case has a RMSE of {rmse}."
